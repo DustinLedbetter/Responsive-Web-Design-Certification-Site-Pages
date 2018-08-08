@@ -1,0 +1,120 @@
+<!--God First-->
+
+<!--Script from Freecodecamp to test cases-->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--Body beginning-->
+<div id="main">
+ 
+  <!--Title section-->
+  <h1 id="title">[Survey Form]</h1>
+  
+  <!--Outer Form section-->
+  <div id="form-outer">
+    <p id="description">Do It!  Just Do It!</p>
+    
+    <!--Form section-->
+    <form id="survey-form">
+      
+      <!--Name field-->
+      <div class="rowTab">
+        <div class="labels">
+          <label id="name-label" for="name">* Name: </label>
+        </div>
+        <div class="rightTab">
+          <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+        </div>
+      </div>
+
+      <!--Email field-->
+      <div class="rowTab">
+        <div class="labels">
+          <label id="email-label" for="email">* Email: </label>
+        </div>
+        <div class="rightTab">
+          <input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email"required>
+        </div>
+      </div>
+
+      <!--Age field-->
+      <div class="rowTab">
+        <div class="labels">
+          <label id="number-label" for="age">* Age: </label>
+        </div>
+        <div class="rightTab">
+          <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" required>
+        </div>
+      </div>
+
+      <!--Dropdown field-->
+      <div class="rowTab">
+        <div class="labels">
+          <label for="lifePath">Occupation?</label>
+        </div>
+        <div class="rightTab">
+          <select id="dropdown" name="currentPos" class="dropdown" required>
+            <option disabled selected value>Pick a class!</option>
+            <option  value="student">Archer</option>
+            <option value="job">Mage</option>
+            <option value="learner">Warrior</option>
+            <option value="preferNo">Rogue</option>
+            <option value="other">Other</option>
+          </select>
+        </div>   
+      </div>
+      
+      <!--Radio Button section-->
+      <div class="rowTab">
+        <div class="labels">
+          <label for="userRating">* Have you saved more lives than you've taken?</label>
+        </div>
+        <div class="rightTab" required>
+          <ul style="list-style: none;">
+           <li class="radio"><label>Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings" required></label></li>
+           <li class="radio"><label>Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings" required></label></li>
+           <li class="radio"><label>Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings" required></label></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!--Check Box section-->
+      <div class="rowTab">
+        <div class="labels">
+          <label for="preferences">Hero Accomplishments:<br>(Check all that apply): </label>
+        </div>
+        <div class="rightTab">
+          <ul id="preferences" style="list-style: none;">
+            <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userAccomplishments">Saved Town</label></li>
+            <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userAccomplishments">Saved children from hobbes</li>
+            <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userAccomplishments">Fought off an invading army</label></li>
+            <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userAccomplishments">Explored a troll cave</label></li>
+            <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userAccomplishments">Sailed to every corner of Albion</label></li>
+            <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userAccomplishments">Fought a Balverine</label></li>
+            <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userAccomplishments">Visited Bowerstone</label></li>
+            <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userAccomplishments">Worked with another Hero</label></li>
+            <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userAccomplishments">Fought a Nightengale</label></li>
+            <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userAccomplishments">Fought a Dragon</label></li>
+            <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userAccomplishments">Enchanted a weapon</label></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!--Comments section-->
+      <div class="rowTab">
+        <div class="labels">
+          <label for="comments">Any Comments or Suggestions?</label>
+        </div>
+        <div class="rightTab">
+          <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+      </div>
+      
+      <!--Submit Button section-->
+      <button id="submit" type="submit">Submit</button>
+      
+      <!--End form-->
+    </form>
+    <!--End outer form-->
+  </div>
+<!--End of the page-->
+</div>
