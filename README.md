@@ -3,8 +3,6 @@ This is a collection of the site Pages that I coded for the Responsive Web Desig
 
 Responsive Web Design Certification (300 hours):
 
-//Complete = [X]
-
   Topics Included:                       
   - [X] Basic HTML and HTML5                  
   - [X] Basic CSS                            
@@ -23,5 +21,7 @@ After going through the course work you are asked to create FIVE webpages utiliz
   - [ ] Personal Portfolio Webpage            
   
   Upon completion you are given a certificate
+  
   Completion Date:
+  
   Link: 
