@@ -16,7 +16,7 @@ After going through the course work you are asked to create FIVE webpages utiliz
   These five pages are:                  
   - [X] Tribute Page                          
   - [X] Survey Form                            
-  - [ ] Product Landing Page                  
+  - [X] Product Landing Page                  
   - [ ] Technical Documentation Page          
   - [ ] Personal Portfolio Webpage            
   
