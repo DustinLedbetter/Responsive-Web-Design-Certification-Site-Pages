@@ -18,10 +18,10 @@ After going through the course work you are asked to create FIVE webpages utiliz
   - [X] Survey Form                            
   - [X] Product Landing Page                  
   - [X] Technical Documentation Page          
-  - [ ] Personal Portfolio Webpage            
+  - [X] Personal Portfolio Webpage            
   
   Upon completion you are given a certificate
   
-  Completion Date:
+  Completion Date: 8/10/2018
   
-  Link: 
+  Link: https://www.freecodecamp.org/certification/dustinledbetter/responsive-web-design
